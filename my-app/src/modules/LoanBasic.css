@@ -1,0 +1,81 @@
+/* src/modules/LoanBasic.css */
+
+#loan-options {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .App-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 20px; /* Add gap between dropdown and placeholder */
+  }
+  
+  .placeholder {
+    padding: 20px;
+    border: 2px solid #000; /* Add solid border */
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .numeric-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .term-unit {
+    margin-left: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 200px;
+  }
+  
+  .gap {
+    margin: 20px 0;
+  }
+  
+  .loan-term-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-row button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-row button:hover {
+    background-color: #21a1f1;
+  }
