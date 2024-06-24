@@ -27,7 +27,7 @@ function Navigation() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MyFirstReactApp">
       <Routes>
         <Route path="/" element={<Navigation />} />
         <Route path="/loan-basic" element={<LoanBasic />} />
